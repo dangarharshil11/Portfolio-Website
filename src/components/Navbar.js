@@ -29,12 +29,13 @@ const Navbar = () => {
         <CustomLink href="/" title="Home" className="mr-4" />
         <CustomLink href="/about" title="About" className="mx-4" />
         <CustomLink href="/projects" title="Projects" className="mx-4" />
-        <CustomLink href="/articles" title="Articles" className="ml-4" />
+        <CustomLink href="/articles" title="Articles" className="mx-4" />
+        <CustomLink href="/contact" title="Articles" className="ml-4" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
         <motion.a
-          href="https://github.com"
+          href="https://github.com/dangarharshil11"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -43,7 +44,7 @@ const Navbar = () => {
           <GithubIcon />
         </motion.a>
         <motion.a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/harshil-dangar-30171b244/"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
